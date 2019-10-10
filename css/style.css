@@ -1,0 +1,147 @@
+@import "fonts.css";
+#header {
+  background-image: url(../img/header.png);
+  background-size: cover;
+  background-position: 0 100%;
+  padding: 180px 0;
+}
+
+.tick span {
+  font-size: 2rem;
+}
+
+#services,
+#blog {
+  background-color: lightcyan;
+}
+
+#services .card:hover {
+  background-color: aquamarine;
+  -webkit-box-shadow: 0px 10px 20px 0px rgba(184, 184, 184, 1);
+  -moz-box-shadow: 0px 10px 20px 0px rgba(184, 184, 184, 1);
+  box-shadow: 0px 10px 20px 0px rgba(184, 184, 184, 1);
+}
+
+.text {
+  display: none;
+}
+
+div[filter]:hover img {
+  filter: brightness(50%);
+  -webkit-filter: brightness(50%);
+  transition: 0.5s;
+}
+
+div[filter]:hover .text {
+  display: block;
+  color: #fff;
+  position: absolute;
+  top: 40%;
+  left: 0%;
+  text-align: center;
+  width: 100%;
+}
+
+.pricing-header {
+  background-image: url(../img/pricing_bg.png);
+  min-height: 209px;
+}
+
+.pricing-header p,
+.pricing-header h3,
+footer p,
+footer h3 {
+  color: #fff;
+}
+
+.pricing-body p {
+  border-bottom: 1px solid rgb(176, 176, 176);
+}
+
+.pricing-header p sup,
+.pricing-header p sub {
+  font-size: 1rem;
+}
+
+.pricing-item {
+  background-color: #fff;
+}
+
+.pricing-item:hover {
+  -webkit-box-shadow: 0px 9px 16px 3px rgba(176, 176, 176, 1);
+  -moz-box-shadow: 0px 9px 16px 3px rgba(176, 176, 176, 1);
+  box-shadow: 0px 9px 16px 3px rgba(176, 176, 176, 1);
+}
+
+#blog a {
+  text-decoration: none;
+  color: #000;
+}
+
+#blog a:hover {
+  color: teal;
+}
+
+.contacts {
+  background-image: url(../img/footer.png);
+  color: #fff;
+}
+
+.icon-bg {
+  background-color: blue;
+  width: 100px;
+  height: 100px;
+  padding-top: 27px;
+  border-radius: 50%
+}
+
+.form-size {
+  width: 350px;
+  border-radius: 5px;
+  border: none;
+  height: 45px;
+}
+
+.align {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.message {
+  width: 713px;
+  height: 250px;
+  border-radius: 5px;
+  border: none;
+  padding: 0;
+}
+
+.form-container {
+  width: 820px;
+  margin: 0 auto;
+}
+
+input::placeholder, textarea::placeholder {
+  margin-left: 10px;
+  padding-left: 10px;
+}
+
+.form-button {
+  margin-left: 860px;
+}
+
+#team img {
+  width: 100%;
+}
+
+ #circle {
+  border-radius: 50%;
+  background-color: green;
+  width: 10px;
+  height: 10px;
+  border: none;
+  color: green;
+}
+.carousel-indicators{
+  position: inherit;
+}

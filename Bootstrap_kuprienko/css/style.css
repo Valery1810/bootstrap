@@ -1,0 +1,18 @@
+@import 'fonts.css';
+.header{
+  background-image: url(../img/header.png);
+  background-size:cover;
+  background-position: 0 100%;
+  padding: 180px 0;
+}
+.pricing-head {
+  background-image: url(../img/pricing_bg.png);
+  background-size: cover;
+  height: 209px;
+  
+}
+
+.pricing-body li {
+  margin-bottom: 20px;
+   border-bottom: 1px solid #cecece;
+}

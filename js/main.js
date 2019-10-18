@@ -34,3 +34,4 @@ setInterval(tick, 1000);
 $('#blog .more_view').on('click', function(){
   $('#blog .blog-item[col=3]').css('display','flex');
 });
+new WOW().init();
